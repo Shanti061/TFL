@@ -1,0 +1,2272 @@
+{
+   "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.ItineraryResult, Tfl.Api.Presentation.Entities",
+   "journeys":[
+      {
+         "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+         "startDateTime":"2017-01-11T13:35:00",
+         "duration":67,
+         "arrivalDateTime":"2017-01-11T14:42:00",
+         "legs":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":5,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Walk to Henry Cooper Way",
+                  "detailed":"Walk to Henry Cooper Way",
+                  "steps":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"Henry Cooper Way for 194 metres",
+                        "turnDirection":"STRAIGHT",
+                        "streetName":"Henry Cooper Way",
+                        "distance":194,
+                        "cumulativeDistance":194,
+                        "skyDirection":434,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":175,
+                        "latitude":51.429559971749995,
+                        "longitude":0.034572261769999994,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Continue along ",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to Dunkery Road, continue for 135 metres",
+                        "turnDirection":"RIGHT",
+                        "streetName":"Dunkery Road",
+                        "distance":135,
+                        "cumulativeDistance":329,
+                        "skyDirection":241,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":296,
+                        "latitude":51.42853407789,
+                        "longitude":0.036166654560000004,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Turn right",
+                        "trackType":"None"
+                     }
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T13:35:00",
+               "arrivalTime":"2017-01-11T13:40:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "platformName":"",
+                  "icsCode":"99999997",
+                  "commonName":"SE9 4JF",
+                  "placeType":"PostCode",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.4294059637,
+                  "lon":0.03463734962
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00008073",
+                  "platformName":"",
+                  "stopLetter":"J",
+                  "icsCode":"1008073",
+                  "commonName":"Henry Cooper Way",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.428025129409995,
+                  "lon":0.03440337936
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.4294059637, 0.03463734962],[51.42955997175, 0.03457226177],[51.42967404358, 0.03525347338],[51.4291670888, 0.03544673234],[51.4288625645, 0.0358935432],[51.42853407789, 0.03616665456],[51.42815842232, 0.03501349385],[51.42805208712, 0.03440457681],[51.42802512941, 0.03440337936]]",
+                  "stopPoints":[
+
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "distance":329,
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":15,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"126 bus to Grove Park Station",
+                  "detailed":"126 bus towards Bromley South",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1001124,
+                     "position":"AFTER"
+                  },
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1001124,
+                     "position":"AFTER"
+                  }
+               ],
+               "departureTime":"2017-01-11T13:40:00",
+               "arrivalTime":"2017-01-11T13:55:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00008073",
+                  "platformName":"",
+                  "stopLetter":"J",
+                  "icsCode":"1008073",
+                  "commonName":"Henry Cooper Way",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.428025129409995,
+                  "lon":0.03440337936
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G01124B",
+                  "platformName":"B",
+                  "stopLetter":"B",
+                  "icsCode":"1001124",
+                  "commonName":"Grove Park Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.43106481835,
+                  "lon":0.021403573
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.42805233664, 0.03439020237],[51.42797046134, 0.03392622944],[51.42857700713, 0.0336942237],[51.42857700713, 0.0336942237],[51.42915634533, 0.03347538989],[51.42985698862, 0.03300298672],[51.42988444505, 0.03297543337],[51.43011258354, 0.03278415443],[51.43124578088, 0.03174107998],[51.43124578088, 0.03174107998],[51.4315565349, 0.03145274813],[51.43156799497, 0.03079147166],[51.43156747714, 0.03030230341],[51.431581918, 0.02946851917],[51.43158689623, 0.0291810072],[51.43159311803, 0.02882161712],[51.43160226033, 0.02725387928],[51.43160400089, 0.02715324992],[51.43159746483, 0.0264911757],[51.43159746483, 0.0264911757],[51.43158670056, 0.02607348727],[51.43158993108, 0.02588660409],[51.43156830417, 0.02401538737],[51.43154447013, 0.02279147255],[51.43154168638, 0.02243168453],[51.43153939756, 0.02204314523],[51.43150686643, 0.02132237935],[51.43130018912, 0.02131325679],[51.43106655388, 0.02130294446]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00009706",
+                        "name":"Marvels Lane Primary School",
+                        "uri":"/StopPoint/490G00009706",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00013403",
+                        "name":"Marvels Lane / Chinbrook Road",
+                        "uri":"/StopPoint/490G00013403",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00003290",
+                        "name":"Amblecote Road",
+                        "uri":"/StopPoint/490G00003290",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01124B",
+                        "name":"Grove Park Station",
+                        "uri":"/StopPoint/490G01124B",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"126",
+                     "directions":[
+                        "Bromley South"
+                     ],
+                     "lineIdentifier":{
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"126",
+                        "name":"126",
+                        "uri":"/Line/126",
+                        "type":"Line"
+                     }
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"bus",
+                  "name":"bus",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":14,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Southeastern to London Bridge",
+                  "detailed":"Southeastern towards London Charing Cross",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:01:00",
+               "arrivalTime":"2017-01-11T14:15:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G01124B",
+                  "platformName":"",
+                  "icsCode":"1001124",
+                  "commonName":"Grove Park Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.43078333627,
+                  "lon":0.02208169372
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00139M",
+                  "platformName":"",
+                  "icsCode":"1000139",
+                  "commonName":"London Bridge Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50513258061,
+                  "lon":-0.0854388262
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.43073939851, 0.02202220826],[51.43133086576, 0.02109881282],[51.4333578229, 0.01828206847],[51.43503088321, 0.01616888498],[51.43573714601, 0.01536548537],[51.43642444301, 0.01461877936],[51.43967645167, 0.01115020891],[51.44450682763, 0.0063544897],[51.4453293519, 0.00558465331],[51.44608773923, 0.00488393614],[51.45015076791, 0.00077298987],[51.45184680299, -0.00112469006],[51.45184680299, -0.00112469006],[51.4524516531, -0.00178913969],[51.45292873388, -0.00234403792],[51.45348889198, -0.0030248628],[51.45394121338, -0.00371040875],[51.45490465604, -0.0053668551],[51.45561230808, -0.00678981197],[51.45663212196, -0.00912046675],[51.45785304048, -0.01217661873],[51.45822589759, -0.01295213961],[51.4585965561, -0.01359821304],[51.46007621157, -0.01547735954],[51.46059767323, -0.01600177385],[51.46121408564, -0.01629174921],[51.46225187195, -0.01650587719],[51.46548036065, -0.01757524056],[51.46595177491, -0.01779956318],[51.46642391842, -0.01806705119],[51.46676126934, -0.0183403848],[51.46717245389, -0.01872570562],[51.46756688038, -0.01918374836],[51.46779712428, -0.01950492879],[51.46824085207, -0.02022001508],[51.46935682005, -0.02293620095],[51.46935682005, -0.02293620095],[51.47060362056, -0.02594924408],[51.4710776588, -0.02686471281],[51.4716420359, -0.02780510238],[51.47216683185, -0.0285312318],[51.47279216446, -0.02935384115],[51.47357219064, -0.0302850065],[51.4746875982, -0.03137456332],[51.47584647805, -0.03237589908],[51.47649319065, -0.03286649097],[51.47649319065, -0.03286649097],[51.47728585277, -0.03348042649],[51.47868637779, -0.03441387626],[51.48109714278, -0.03606727563],[51.48168920028, -0.03651711458],[51.48214622202, -0.03695836144],[51.48253255693, -0.03747466457],[51.48282685999, -0.03786530284],[51.48314057895, -0.03834152917],[51.48349361091, -0.03901771497],[51.48369074508, -0.03951335926],[51.48440328426, -0.04125438187],[51.48467614472, -0.0419772524],[51.48487326661, -0.04247292248],[51.48537115578, -0.04374790707],[51.48644070181, -0.04641003533],[51.48739960288, -0.04837121115],[51.4877838475, -0.04930547842],[51.48869165398, -0.05144180331],[51.48897224352, -0.05209244877],[51.49146049118, -0.05789256667],[51.49250913042, -0.06039779755],[51.49358253584, -0.06277243831],[51.4977056471, -0.07177504407],[51.49819872837, -0.07277715968],[51.50193456268, -0.07959330657],[51.50231432103, -0.08026895884],[51.50298513985, -0.08169606627],[51.5035637238, -0.08298299489],[51.50385124582, -0.08351847672],[51.50410804208, -0.08382470592],[51.50452965115, -0.08431134759],[51.50477863482, -0.08468996061],[51.50513258061, -0.0854388262]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01152S",
+                        "name":"Hither Green Station",
+                        "uri":"/StopPoint/490G01152S",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00139M",
+                        "name":"London Bridge Station",
+                        "uri":"/StopPoint/490G00139M",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"Southeastern",
+                     "directions":[
+                        "London Charing Cross Rail Station"
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"national-rail",
+                  "name":"national-rail",
+                  "type":"Mode"
+               },
+               "disruptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                     "category":"RealTime",
+                     "type":"stopInfo",
+                     "categoryDescription":"RealTime",
+                     "description":"SOUTHERN RAILWAY: There will be no Southern service on Tuesday 10, Wednesday 11 and Friday 13 January, and you should not attempt to travel. Thameslink services will operate as normal with a reduced Gatwick Express service operating between Victoria and Gatwick Airport only from 0500 until 2200, every 30 minutes.",
+                     "additionalInfo":"<a href=\"http://www.southernrailway.com/your-journey/strike/aslef-strike/\">Find out more from the Southern website.</a>",
+                     "created":"2016-12-12T08:59:00",
+                     "lastUpdate":"2017-01-04T15:49:00"
+                  }
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":true,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":9,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Get off at London Bridge Borough High St",
+                  "detailed":"Get off at London Bridge Borough High St",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"ESCALATOR",
+                     "incline":"DOWN",
+                     "stopId":1000139,
+                     "position":"IDEST"
+                  },
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1000139,
+                     "position":"IDEST"
+                  }
+               ],
+               "departureTime":"2017-01-11T14:15:00",
+               "arrivalTime":"2017-01-11T14:24:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00139M",
+                  "platformName":"",
+                  "icsCode":"1000139",
+                  "commonName":"London Bridge Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50513258061,
+                  "lon":-0.0854388262
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G000922",
+                  "platformName":"M",
+                  "stopLetter":"M",
+                  "icsCode":"1018542",
+                  "commonName":"London Bridge",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50655307826,
+                  "lon":-0.08817482554
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.50513258061, -0.0854388262],[51.50641969002, -0.08826686887],[51.50656253419, -0.08820324977],[51.50655307826, -0.08817482554]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G000922",
+                        "name":"London Bridge",
+                        "uri":"/StopPoint/490G000922",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":15,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"40 bus to Aldgate Station",
+                  "detailed":"40 bus towards Aldgate",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:24:00",
+               "arrivalTime":"2017-01-11T14:39:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G000922",
+                  "platformName":"M",
+                  "stopLetter":"M",
+                  "icsCode":"1018542",
+                  "commonName":"London Bridge",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50655307826,
+                  "lon":-0.08817482554
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00003N",
+                  "platformName":"",
+                  "stopLetter":"D",
+                  "icsCode":"1000003",
+                  "commonName":"Aldgate Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.51429166568,
+                  "lon":-0.07473547029
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.50656253419, -0.08820324977],[51.50673210291, -0.08812410149],[51.50682149784, -0.08809153917],[51.50790392696, -0.08774360664],[51.5089144632, -0.08739866775],[51.50902159588, -0.08735094867],[51.50942363685, -0.08719000144],[51.50942363685, -0.08719000144],[51.50952201788, -0.08715705884],[51.50973651788, -0.08707601917],[51.50980793956, -0.08704420537],[51.51030883075, -0.08687911135],[51.51071040102, -0.08668935216],[51.51087121698, -0.08662496876],[51.51087691396, -0.08642297063],[51.51096066832, -0.08604476419],[51.51109881012, -0.0856930993],[51.51130338222, -0.08555481983],[51.51145427069, -0.08543320145],[51.51147506458, -0.08560526859],[51.51147506458, -0.08560526859],[51.51145427069, -0.08543320145],[51.51191662714, -0.08511117016],[51.51179985362, -0.08456842298],[51.51168072482, -0.08388166089],[51.51166985604, -0.0837668238],[51.51156798924, -0.08303610621],[51.5115814893, -0.08276171875],[51.5115814893, -0.08276171875],[51.5116070745, -0.08212653298],[51.51171400502, -0.08151675219],[51.51179962832, -0.08125374451],[51.51187626463, -0.0809911135],[51.51192735516, -0.08081602568],[51.51204585823, -0.08036428035],[51.51209718355, -0.08020359307],[51.5122090557, -0.07989624148],[51.51233772071, -0.07951612281],[51.51236397239, -0.07947178312],[51.51236397239, -0.07947178312],[51.51246874309, -0.07928002186],[51.5125200669, -0.0791193319],[51.51271069032, -0.07867895356],[51.51287600475, -0.0783405209],[51.51316358707, -0.07778075738],[51.51326125701, -0.07770458499],[51.5133125786, -0.07754389051],[51.51344218025, -0.07722136524],[51.51364201888, -0.076794994],[51.51372929477, -0.0760851149],[51.51378108665, -0.07595322173],[51.51382389201, -0.07582170696],[51.51390122485, -0.07560226264],[51.51405588926, -0.07516337178],[51.51417626146, -0.07482681102],[51.51423680182, -0.07468013374]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G09267E",
+                        "name":"Monument Station",
+                        "uri":"/StopPoint/490G09267E",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00019176",
+                        "name":"Gracechurch Street / Monument Station",
+                        "uri":"/StopPoint/490G00019176",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00011049",
+                        "name":"Rood Lane",
+                        "uri":"/StopPoint/490G00011049",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01108W",
+                        "name":"Fenchurch Street Station",
+                        "uri":"/StopPoint/490G01108W",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00003N",
+                        "name":"Aldgate Station",
+                        "uri":"/StopPoint/490G00003N",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"40",
+                     "directions":[
+                        "Aldgate"
+                     ],
+                     "lineIdentifier":{
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"40",
+                        "name":"40",
+                        "uri":"/Line/40",
+                        "type":"Line"
+                     }
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"bus",
+                  "name":"bus",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":4,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Walk to EC3N 1DD",
+                  "detailed":"Walk to EC3N 1DD",
+                  "steps":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"Aldgate High Street for 101 metres",
+                        "turnDirection":"STRAIGHT",
+                        "streetName":"Aldgate High Street",
+                        "distance":101,
+                        "cumulativeDistance":101,
+                        "skyDirection":236,
+                        "skyDirectionDescription":"SouthWest",
+                        "cumulativeTravelTime":89,
+                        "latitude":51.514236801820005,
+                        "longitude":-0.07468013374,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Continue along ",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to Minories, continue for 136 metres",
+                        "turnDirection":"SLIGHT_LEFT",
+                        "streetName":"Minories",
+                        "distance":136,
+                        "cumulativeDistance":237,
+                        "skyDirection":535,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":210,
+                        "latitude":51.51378108665,
+                        "longitude":-0.07595322173,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Take a slight left",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to St Clare Street, continue for 25 metres",
+                        "turnDirection":"LEFT",
+                        "streetName":"St Clare Street",
+                        "distance":25,
+                        "cumulativeDistance":262,
+                        "skyDirection":439,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":228,
+                        "latitude":51.51257881087,
+                        "longitude":-0.07557152271,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Turn left",
+                        "trackType":"None"
+                     }
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:38:00",
+               "arrivalTime":"2017-01-11T14:42:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00003N",
+                  "platformName":"",
+                  "stopLetter":"D",
+                  "icsCode":"1000003",
+                  "commonName":"Aldgate Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.51429166568,
+                  "lon":-0.07473547029
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+                  "commonName":"EC3N 1DD",
+                  "placeType":"PostCode",
+                  "lat":51.512409966140005,
+                  "lon":-0.07514628169
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.51429166568, -0.07473547029],[51.51423680182, -0.07468013374],[51.51417626146, -0.07482681102],[51.51405588926, -0.07516337178],[51.51390122485, -0.07560226264],[51.51382389201, -0.07582170696],[51.51378108665, -0.07595322173],[51.51357392762, -0.07593312636],[51.51296711518, -0.07567045429],[51.5126963426, -0.07560980536],[51.51257881087, -0.07557152271],[51.51261783438, -0.07520957911],[51.51240996614, -0.07514628169]]",
+                  "stopPoints":[
+
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "distance":262,
+               "isDisrupted":false,
+               "hasFixedLocations":false
+            }
+         ]
+      },
+      {
+         "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+         "startDateTime":"2017-01-11T13:35:00",
+         "duration":68,
+         "arrivalDateTime":"2017-01-11T14:43:00",
+         "legs":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":5,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Walk to Henry Cooper Way",
+                  "detailed":"Walk to Henry Cooper Way",
+                  "steps":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"Henry Cooper Way for 194 metres",
+                        "turnDirection":"STRAIGHT",
+                        "streetName":"Henry Cooper Way",
+                        "distance":194,
+                        "cumulativeDistance":194,
+                        "skyDirection":434,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":175,
+                        "latitude":51.429559971749995,
+                        "longitude":0.034572261769999994,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Continue along ",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to Dunkery Road, continue for 135 metres",
+                        "turnDirection":"RIGHT",
+                        "streetName":"Dunkery Road",
+                        "distance":135,
+                        "cumulativeDistance":329,
+                        "skyDirection":241,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":296,
+                        "latitude":51.42853407789,
+                        "longitude":0.036166654560000004,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Turn right",
+                        "trackType":"None"
+                     }
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T13:35:00",
+               "arrivalTime":"2017-01-11T13:40:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "platformName":"",
+                  "icsCode":"99999997",
+                  "commonName":"SE9 4JF",
+                  "placeType":"PostCode",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.4294059637,
+                  "lon":0.03463734962
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00008073",
+                  "platformName":"",
+                  "stopLetter":"J",
+                  "icsCode":"1008073",
+                  "commonName":"Henry Cooper Way",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.428025129409995,
+                  "lon":0.03440337936
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.4294059637, 0.03463734962],[51.42955997175, 0.03457226177],[51.42967404358, 0.03525347338],[51.4291670888, 0.03544673234],[51.4288625645, 0.0358935432],[51.42853407789, 0.03616665456],[51.42815842232, 0.03501349385],[51.42805208712, 0.03440457681],[51.42802512941, 0.03440337936]]",
+                  "stopPoints":[
+
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "distance":329,
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":15,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"126 bus to Grove Park Station",
+                  "detailed":"126 bus towards Bromley South",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1001124,
+                     "position":"AFTER"
+                  },
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1001124,
+                     "position":"AFTER"
+                  }
+               ],
+               "departureTime":"2017-01-11T13:40:00",
+               "arrivalTime":"2017-01-11T13:55:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00008073",
+                  "platformName":"",
+                  "stopLetter":"J",
+                  "icsCode":"1008073",
+                  "commonName":"Henry Cooper Way",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.428025129409995,
+                  "lon":0.03440337936
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G01124B",
+                  "platformName":"B",
+                  "stopLetter":"B",
+                  "icsCode":"1001124",
+                  "commonName":"Grove Park Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.43106481835,
+                  "lon":0.021403573
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.42805233664, 0.03439020237],[51.42797046134, 0.03392622944],[51.42857700713, 0.0336942237],[51.42857700713, 0.0336942237],[51.42915634533, 0.03347538989],[51.42985698862, 0.03300298672],[51.42988444505, 0.03297543337],[51.43011258354, 0.03278415443],[51.43124578088, 0.03174107998],[51.43124578088, 0.03174107998],[51.4315565349, 0.03145274813],[51.43156799497, 0.03079147166],[51.43156747714, 0.03030230341],[51.431581918, 0.02946851917],[51.43158689623, 0.0291810072],[51.43159311803, 0.02882161712],[51.43160226033, 0.02725387928],[51.43160400089, 0.02715324992],[51.43159746483, 0.0264911757],[51.43159746483, 0.0264911757],[51.43158670056, 0.02607348727],[51.43158993108, 0.02588660409],[51.43156830417, 0.02401538737],[51.43154447013, 0.02279147255],[51.43154168638, 0.02243168453],[51.43153939756, 0.02204314523],[51.43150686643, 0.02132237935],[51.43130018912, 0.02131325679],[51.43106655388, 0.02130294446]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00009706",
+                        "name":"Marvels Lane Primary School",
+                        "uri":"/StopPoint/490G00009706",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00013403",
+                        "name":"Marvels Lane / Chinbrook Road",
+                        "uri":"/StopPoint/490G00013403",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00003290",
+                        "name":"Amblecote Road",
+                        "uri":"/StopPoint/490G00003290",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01124B",
+                        "name":"Grove Park Station",
+                        "uri":"/StopPoint/490G01124B",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"126",
+                     "directions":[
+                        "Bromley South"
+                     ],
+                     "lineIdentifier":{
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"126",
+                        "name":"126",
+                        "uri":"/Line/126",
+                        "type":"Line"
+                     }
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"bus",
+                  "name":"bus",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":14,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Southeastern to London Bridge",
+                  "detailed":"Southeastern towards London Charing Cross",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:01:00",
+               "arrivalTime":"2017-01-11T14:15:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G01124B",
+                  "platformName":"",
+                  "icsCode":"1001124",
+                  "commonName":"Grove Park Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.43078333627,
+                  "lon":0.02208169372
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00139M",
+                  "platformName":"",
+                  "icsCode":"1000139",
+                  "commonName":"London Bridge Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50513258061,
+                  "lon":-0.0854388262
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.43073939851, 0.02202220826],[51.43133086576, 0.02109881282],[51.4333578229, 0.01828206847],[51.43503088321, 0.01616888498],[51.43573714601, 0.01536548537],[51.43642444301, 0.01461877936],[51.43967645167, 0.01115020891],[51.44450682763, 0.0063544897],[51.4453293519, 0.00558465331],[51.44608773923, 0.00488393614],[51.45015076791, 0.00077298987],[51.45184680299, -0.00112469006],[51.45184680299, -0.00112469006],[51.4524516531, -0.00178913969],[51.45292873388, -0.00234403792],[51.45348889198, -0.0030248628],[51.45394121338, -0.00371040875],[51.45490465604, -0.0053668551],[51.45561230808, -0.00678981197],[51.45663212196, -0.00912046675],[51.45785304048, -0.01217661873],[51.45822589759, -0.01295213961],[51.4585965561, -0.01359821304],[51.46007621157, -0.01547735954],[51.46059767323, -0.01600177385],[51.46121408564, -0.01629174921],[51.46225187195, -0.01650587719],[51.46548036065, -0.01757524056],[51.46595177491, -0.01779956318],[51.46642391842, -0.01806705119],[51.46676126934, -0.0183403848],[51.46717245389, -0.01872570562],[51.46756688038, -0.01918374836],[51.46779712428, -0.01950492879],[51.46824085207, -0.02022001508],[51.46935682005, -0.02293620095],[51.46935682005, -0.02293620095],[51.47060362056, -0.02594924408],[51.4710776588, -0.02686471281],[51.4716420359, -0.02780510238],[51.47216683185, -0.0285312318],[51.47279216446, -0.02935384115],[51.47357219064, -0.0302850065],[51.4746875982, -0.03137456332],[51.47584647805, -0.03237589908],[51.47649319065, -0.03286649097],[51.47649319065, -0.03286649097],[51.47728585277, -0.03348042649],[51.47868637779, -0.03441387626],[51.48109714278, -0.03606727563],[51.48168920028, -0.03651711458],[51.48214622202, -0.03695836144],[51.48253255693, -0.03747466457],[51.48282685999, -0.03786530284],[51.48314057895, -0.03834152917],[51.48349361091, -0.03901771497],[51.48369074508, -0.03951335926],[51.48440328426, -0.04125438187],[51.48467614472, -0.0419772524],[51.48487326661, -0.04247292248],[51.48537115578, -0.04374790707],[51.48644070181, -0.04641003533],[51.48739960288, -0.04837121115],[51.4877838475, -0.04930547842],[51.48869165398, -0.05144180331],[51.48897224352, -0.05209244877],[51.49146049118, -0.05789256667],[51.49250913042, -0.06039779755],[51.49358253584, -0.06277243831],[51.4977056471, -0.07177504407],[51.49819872837, -0.07277715968],[51.50193456268, -0.07959330657],[51.50231432103, -0.08026895884],[51.50298513985, -0.08169606627],[51.5035637238, -0.08298299489],[51.50385124582, -0.08351847672],[51.50410804208, -0.08382470592],[51.50452965115, -0.08431134759],[51.50477863482, -0.08468996061],[51.50513258061, -0.0854388262]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01152S",
+                        "name":"Hither Green Station",
+                        "uri":"/StopPoint/490G01152S",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00139M",
+                        "name":"London Bridge Station",
+                        "uri":"/StopPoint/490G00139M",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"Southeastern",
+                     "directions":[
+                        "London Charing Cross Rail Station"
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"national-rail",
+                  "name":"national-rail",
+                  "type":"Mode"
+               },
+               "disruptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                     "category":"RealTime",
+                     "type":"stopInfo",
+                     "categoryDescription":"RealTime",
+                     "description":"SOUTHERN RAILWAY: There will be no Southern service on Tuesday 10, Wednesday 11 and Friday 13 January, and you should not attempt to travel. Thameslink services will operate as normal with a reduced Gatwick Express service operating between Victoria and Gatwick Airport only from 0500 until 2200, every 30 minutes.",
+                     "additionalInfo":"<a href=\"http://www.southernrailway.com/your-journey/strike/aslef-strike/\">Find out more from the Southern website.</a>",
+                     "created":"2016-12-12T08:59:00",
+                     "lastUpdate":"2017-01-04T15:49:00"
+                  }
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":true,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":9,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Get off at London Bridge Borough High St",
+                  "detailed":"Get off at London Bridge Borough High St",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"ESCALATOR",
+                     "incline":"DOWN",
+                     "stopId":1000139,
+                     "position":"IDEST"
+                  },
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1000139,
+                     "position":"IDEST"
+                  }
+               ],
+               "departureTime":"2017-01-11T14:16:00",
+               "arrivalTime":"2017-01-11T14:25:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00139M",
+                  "platformName":"",
+                  "icsCode":"1000139",
+                  "commonName":"London Bridge Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50513258061,
+                  "lon":-0.0854388262
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G000922",
+                  "platformName":"M",
+                  "stopLetter":"M",
+                  "icsCode":"1018542",
+                  "commonName":"London Bridge",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50655307826,
+                  "lon":-0.08817482554
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.50513258061, -0.0854388262],[51.50641969002, -0.08826686887],[51.50656253419, -0.08820324977],[51.50655307826, -0.08817482554]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G000922",
+                        "name":"London Bridge",
+                        "uri":"/StopPoint/490G000922",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":15,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"40 bus to Aldgate Station",
+                  "detailed":"40 bus towards Aldgate",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:25:00",
+               "arrivalTime":"2017-01-11T14:40:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G000922",
+                  "platformName":"M",
+                  "stopLetter":"M",
+                  "icsCode":"1018542",
+                  "commonName":"London Bridge",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50655307826,
+                  "lon":-0.08817482554
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00003N",
+                  "platformName":"",
+                  "stopLetter":"D",
+                  "icsCode":"1000003",
+                  "commonName":"Aldgate Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.51429166568,
+                  "lon":-0.07473547029
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.50656253419, -0.08820324977],[51.50673210291, -0.08812410149],[51.50682149784, -0.08809153917],[51.50790392696, -0.08774360664],[51.5089144632, -0.08739866775],[51.50902159588, -0.08735094867],[51.50942363685, -0.08719000144],[51.50942363685, -0.08719000144],[51.50952201788, -0.08715705884],[51.50973651788, -0.08707601917],[51.50980793956, -0.08704420537],[51.51030883075, -0.08687911135],[51.51071040102, -0.08668935216],[51.51087121698, -0.08662496876],[51.51087691396, -0.08642297063],[51.51096066832, -0.08604476419],[51.51109881012, -0.0856930993],[51.51130338222, -0.08555481983],[51.51145427069, -0.08543320145],[51.51147506458, -0.08560526859],[51.51147506458, -0.08560526859],[51.51145427069, -0.08543320145],[51.51191662714, -0.08511117016],[51.51179985362, -0.08456842298],[51.51168072482, -0.08388166089],[51.51166985604, -0.0837668238],[51.51156798924, -0.08303610621],[51.5115814893, -0.08276171875],[51.5115814893, -0.08276171875],[51.5116070745, -0.08212653298],[51.51171400502, -0.08151675219],[51.51179962832, -0.08125374451],[51.51187626463, -0.0809911135],[51.51192735516, -0.08081602568],[51.51204585823, -0.08036428035],[51.51209718355, -0.08020359307],[51.5122090557, -0.07989624148],[51.51233772071, -0.07951612281],[51.51236397239, -0.07947178312],[51.51236397239, -0.07947178312],[51.51246874309, -0.07928002186],[51.5125200669, -0.0791193319],[51.51271069032, -0.07867895356],[51.51287600475, -0.0783405209],[51.51316358707, -0.07778075738],[51.51326125701, -0.07770458499],[51.5133125786, -0.07754389051],[51.51344218025, -0.07722136524],[51.51364201888, -0.076794994],[51.51372929477, -0.0760851149],[51.51378108665, -0.07595322173],[51.51382389201, -0.07582170696],[51.51390122485, -0.07560226264],[51.51405588926, -0.07516337178],[51.51417626146, -0.07482681102],[51.51423680182, -0.07468013374]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G09267E",
+                        "name":"Monument Station",
+                        "uri":"/StopPoint/490G09267E",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00019176",
+                        "name":"Gracechurch Street / Monument Station",
+                        "uri":"/StopPoint/490G00019176",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00011049",
+                        "name":"Rood Lane",
+                        "uri":"/StopPoint/490G00011049",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01108W",
+                        "name":"Fenchurch Street Station",
+                        "uri":"/StopPoint/490G01108W",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00003N",
+                        "name":"Aldgate Station",
+                        "uri":"/StopPoint/490G00003N",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"40",
+                     "directions":[
+                        "Aldgate"
+                     ],
+                     "lineIdentifier":{
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"40",
+                        "name":"40",
+                        "uri":"/Line/40",
+                        "type":"Line"
+                     }
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"bus",
+                  "name":"bus",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":4,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Walk to EC3N 1DD",
+                  "detailed":"Walk to EC3N 1DD",
+                  "steps":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"Aldgate High Street for 101 metres",
+                        "turnDirection":"STRAIGHT",
+                        "streetName":"Aldgate High Street",
+                        "distance":101,
+                        "cumulativeDistance":101,
+                        "skyDirection":236,
+                        "skyDirectionDescription":"SouthWest",
+                        "cumulativeTravelTime":89,
+                        "latitude":51.514236801820005,
+                        "longitude":-0.07468013374,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Continue along ",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to Minories, continue for 136 metres",
+                        "turnDirection":"SLIGHT_LEFT",
+                        "streetName":"Minories",
+                        "distance":136,
+                        "cumulativeDistance":237,
+                        "skyDirection":535,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":210,
+                        "latitude":51.51378108665,
+                        "longitude":-0.07595322173,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Take a slight left",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to St Clare Street, continue for 25 metres",
+                        "turnDirection":"LEFT",
+                        "streetName":"St Clare Street",
+                        "distance":25,
+                        "cumulativeDistance":262,
+                        "skyDirection":439,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":228,
+                        "latitude":51.51257881087,
+                        "longitude":-0.07557152271,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Turn left",
+                        "trackType":"None"
+                     }
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:39:00",
+               "arrivalTime":"2017-01-11T14:43:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00003N",
+                  "platformName":"",
+                  "stopLetter":"D",
+                  "icsCode":"1000003",
+                  "commonName":"Aldgate Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.51429166568,
+                  "lon":-0.07473547029
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+                  "commonName":"EC3N 1DD",
+                  "placeType":"PostCode",
+                  "lat":51.512409966140005,
+                  "lon":-0.07514628169
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.51429166568, -0.07473547029],[51.51423680182, -0.07468013374],[51.51417626146, -0.07482681102],[51.51405588926, -0.07516337178],[51.51390122485, -0.07560226264],[51.51382389201, -0.07582170696],[51.51378108665, -0.07595322173],[51.51357392762, -0.07593312636],[51.51296711518, -0.07567045429],[51.5126963426, -0.07560980536],[51.51257881087, -0.07557152271],[51.51261783438, -0.07520957911],[51.51240996614, -0.07514628169]]",
+                  "stopPoints":[
+
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "distance":262,
+               "isDisrupted":false,
+               "hasFixedLocations":false
+            }
+         ]
+      },
+      {
+         "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+         "startDateTime":"2017-01-11T13:39:00",
+         "duration":71,
+         "arrivalDateTime":"2017-01-11T14:50:00",
+         "legs":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":5,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Walk to Henry Cooper Way",
+                  "detailed":"Walk to Henry Cooper Way",
+                  "steps":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"Henry Cooper Way for 194 metres",
+                        "turnDirection":"STRAIGHT",
+                        "streetName":"Henry Cooper Way",
+                        "distance":194,
+                        "cumulativeDistance":194,
+                        "skyDirection":434,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":175,
+                        "latitude":51.429559971749995,
+                        "longitude":0.034572261769999994,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Continue along ",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to Dunkery Road, continue for 135 metres",
+                        "turnDirection":"RIGHT",
+                        "streetName":"Dunkery Road",
+                        "distance":135,
+                        "cumulativeDistance":329,
+                        "skyDirection":241,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":296,
+                        "latitude":51.42853407789,
+                        "longitude":0.036166654560000004,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Turn right",
+                        "trackType":"None"
+                     }
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T13:39:00",
+               "arrivalTime":"2017-01-11T13:44:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "platformName":"",
+                  "icsCode":"99999997",
+                  "commonName":"SE9 4JF",
+                  "placeType":"PostCode",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.4294059637,
+                  "lon":0.03463734962
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00008073",
+                  "platformName":"",
+                  "stopLetter":"J",
+                  "icsCode":"1008073",
+                  "commonName":"Henry Cooper Way",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.428025129409995,
+                  "lon":0.03440337936
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.4294059637, 0.03463734962],[51.42955997175, 0.03457226177],[51.42967404358, 0.03525347338],[51.4291670888, 0.03544673234],[51.4288625645, 0.0358935432],[51.42853407789, 0.03616665456],[51.42815842232, 0.03501349385],[51.42805208712, 0.03440457681],[51.42802512941, 0.03440337936]]",
+                  "stopPoints":[
+
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "distance":329,
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":20,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"273 bus to Hither Green Station",
+                  "detailed":"273 bus towards Lewisham, Tesco",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1001152,
+                     "position":"AFTER"
+                  },
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"STAIRS",
+                     "incline":"UP",
+                     "stopId":1001152,
+                     "position":"AFTER"
+                  }
+               ],
+               "departureTime":"2017-01-11T13:44:00",
+               "arrivalTime":"2017-01-11T14:04:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00008073",
+                  "platformName":"",
+                  "stopLetter":"J",
+                  "icsCode":"1008073",
+                  "commonName":"Henry Cooper Way",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.428025129409995,
+                  "lon":0.03440337936
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G01152S",
+                  "platformName":"Z",
+                  "stopLetter":"Z",
+                  "icsCode":"1001152",
+                  "commonName":"Hither Green Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.45269051175,
+                  "lon":-0.0010302625499999999
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.42805233664, 0.03439020237],[51.42797046134, 0.03392622944],[51.42857700713, 0.0336942237],[51.42857700713, 0.0336942237],[51.42915634533, 0.03347538989],[51.42985698862, 0.03300298672],[51.42988444505, 0.03297543337],[51.43011258354, 0.03278415443],[51.43124578088, 0.03174107998],[51.43124578088, 0.03174107998],[51.4315565349, 0.03145274813],[51.43225142284, 0.0307930062],[51.43306282802, 0.02911692663],[51.43306282802, 0.02911692663],[51.43361315231, 0.02797594466],[51.4339680479, 0.02721474427],[51.43401422085, 0.0271448515],[51.43309211366, 0.0263846754],[51.43275263631, 0.02625455687],[51.43274460458, 0.025678722],[51.43274460458, 0.025678722],[51.43271696765, 0.02363454889],[51.4327198398, 0.02242617005],[51.43271030121, 0.02193659184],[51.43271030121, 0.02193659184],[51.43270299205, 0.0213176296],[51.43329005509, 0.02117089792],[51.43364323486, 0.0210282272],[51.43364323486, 0.0210282272],[51.43432238811, 0.02075606621],[51.43492314531, 0.02033656149],[51.4352608301, 0.0200493183],[51.4352608301, 0.0200493183],[51.43558004677, 0.01979003202],[51.43601905313, 0.01936336975],[51.43615112295, 0.02161372992],[51.4361631428, 0.02195957392],[51.4361631428, 0.02195957392],[51.43619994067, 0.02295397553],[51.4365720868, 0.0227545953],[51.43727194446, 0.02232508585],[51.43735758651, 0.02257347203],[51.43886281165, 0.02341697069],[51.43935207403, 0.02372637606],[51.43999910954, 0.02427299194],[51.44000635719, 0.02437403729],[51.44004665309, 0.02568524376],[51.4396271249, 0.02654441879],[51.43973296719, 0.02666421756],[51.43973296719, 0.02666421756],[51.44043841333, 0.02747247584],[51.4414041963, 0.02830668395],[51.44154722448, 0.02835619053],[51.4415197399, 0.02786572118],[51.44152371995, 0.02763566147],[51.44162920976, 0.02621574548],[51.44186644643, 0.02445629414],[51.4427180628, 0.02148642269],[51.44284002675, 0.02067157006],[51.44280674578, 0.01999376434],[51.44266315201, 0.01945499434],[51.44254453218, 0.01903244968],[51.44254453218, 0.01903244968],[51.44241717247, 0.01859513183],[51.4446525657, 0.01620411878],[51.44533714856, 0.01561546422],[51.44555701557, 0.01538049953],[51.44555701557, 0.01538049953],[51.44621636672, 0.01468997235],[51.44629847639, 0.0146216305],[51.44711981807, 0.01392381806],[51.44711981807, 0.01392381806],[51.44767660999, 0.01344461054],[51.44774923895, 0.01340463065],[51.44810315057, 0.01321871499],[51.44840191109, 0.01310233016],[51.44840191109, 0.01310233016],[51.44880949123, 0.01293316217],[51.44943199405, 0.01281662034],[51.44971228832, 0.0127282022],[51.4498842568, 0.01266380371],[51.4499923356, 0.01265416456],[51.45040791343, 0.01254290888],[51.45074212343, 0.01245685835],[51.45076651443, 0.01208372261],[51.45101650183, 0.00904346081],[51.45127810394, 0.00584535565],[51.45108889382, 0.0048151793],[51.45161013757, 0.00220411848],[51.4515463548, 0.0017263636],[51.4515937409, 0.00158450771],[51.4515937409, 0.00158450771],[51.45209626856, 6.643468E-05],[51.45242206683, -0.00058140925],[51.45274197542, -0.00088408216]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00009706",
+                        "name":"Marvels Lane Primary School",
+                        "uri":"/StopPoint/490G00009706",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00013403",
+                        "name":"Marvels Lane / Chinbrook Road",
+                        "uri":"/StopPoint/490G00013403",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00009634",
+                        "name":"Marbrook Court",
+                        "uri":"/StopPoint/490G00009634",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00007568",
+                        "name":"Le May Avenue / Luffman Road",
+                        "uri":"/StopPoint/490G00007568",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00018573",
+                        "name":"Baring Road",
+                        "uri":"/StopPoint/490G00018573",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00018572",
+                        "name":"St Augustine's Church",
+                        "uri":"/StopPoint/490G00018572",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00015292",
+                        "name":"Baring Road / Coopers Lane",
+                        "uri":"/StopPoint/490G00015292",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00005578",
+                        "name":"Coopers Lane",
+                        "uri":"/StopPoint/490G00005578",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00008353",
+                        "name":"Jevington Way",
+                        "uri":"/StopPoint/490G00008353",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00004611",
+                        "name":"Burnt Ash Road",
+                        "uri":"/StopPoint/490G00004611",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00003550",
+                        "name":"Horncastle Road",
+                        "uri":"/StopPoint/490G00003550",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00014480",
+                        "name":"Westhorne Avenue",
+                        "uri":"/StopPoint/490G00014480",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01176N",
+                        "name":"Lee Station",
+                        "uri":"/StopPoint/490G01176N",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00018709",
+                        "name":"Fernbrook Crescent",
+                        "uri":"/StopPoint/490G00018709",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01152S",
+                        "name":"Hither Green Station",
+                        "uri":"/StopPoint/490G01152S",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"273",
+                     "directions":[
+                        "Lewisham, Tesco"
+                     ],
+                     "lineIdentifier":{
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"273",
+                        "name":"273",
+                        "uri":"/Line/273",
+                        "type":"Line"
+                     }
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"bus",
+                  "name":"bus",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":11,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Southeastern to London Bridge",
+                  "detailed":"Southeastern towards London Charing Cross",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:11:00",
+               "arrivalTime":"2017-01-11T14:22:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G01152S",
+                  "platformName":"",
+                  "icsCode":"1001152",
+                  "commonName":"Hither Green Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.4520650775,
+                  "lon":-0.0007409373100000001
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00139M",
+                  "platformName":"",
+                  "icsCode":"1000139",
+                  "commonName":"London Bridge Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50513258061,
+                  "lon":-0.0854388262
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.45207406356, -0.00074054472],[51.45219603314, -0.00103747003],[51.4525497643, -0.00174167596],[51.45292873388, -0.00234403792],[51.45348889198, -0.0030248628],[51.45394121338, -0.00371040875],[51.45490465604, -0.0053668551],[51.45561230808, -0.00678981197],[51.45663212196, -0.00912046675],[51.45785304048, -0.01217661873],[51.45822589759, -0.01295213961],[51.4585965561, -0.01359821304],[51.46007621157, -0.01547735954],[51.46059767323, -0.01600177385],[51.46121408564, -0.01629174921],[51.46225187195, -0.01650587719],[51.46548036065, -0.01757524056],[51.46595177491, -0.01779956318],[51.46642391842, -0.01806705119],[51.46676126934, -0.0183403848],[51.46717245389, -0.01872570562],[51.46756688038, -0.01918374836],[51.46779712428, -0.01950492879],[51.46824085207, -0.02022001508],[51.46935682005, -0.02293620095],[51.46935682005, -0.02293620095],[51.47060362056, -0.02594924408],[51.4710776588, -0.02686471281],[51.4716420359, -0.02780510238],[51.47216683185, -0.0285312318],[51.47279216446, -0.02935384115],[51.47357219064, -0.0302850065],[51.4746875982, -0.03137456332],[51.47584647805, -0.03237589908],[51.47649319065, -0.03286649097],[51.47649319065, -0.03286649097],[51.47728585277, -0.03348042649],[51.47868637779, -0.03441387626],[51.48109714278, -0.03606727563],[51.48168920028, -0.03651711458],[51.48214622202, -0.03695836144],[51.48253255693, -0.03747466457],[51.48282685999, -0.03786530284],[51.48314057895, -0.03834152917],[51.48349361091, -0.03901771497],[51.48369074508, -0.03951335926],[51.48440328426, -0.04125438187],[51.48467614472, -0.0419772524],[51.48487326661, -0.04247292248],[51.48537115578, -0.04374790707],[51.48644070181, -0.04641003533],[51.48739960288, -0.04837121115],[51.4877838475, -0.04930547842],[51.48869165398, -0.05144180331],[51.48897224352, -0.05209244877],[51.49146049118, -0.05789256667],[51.49250913042, -0.06039779755],[51.49358253584, -0.06277243831],[51.4977056471, -0.07177504407],[51.49819872837, -0.07277715968],[51.50193456268, -0.07959330657],[51.50231432103, -0.08026895884],[51.50298513985, -0.08169606627],[51.5035637238, -0.08298299489],[51.50385124582, -0.08351847672],[51.50410804208, -0.08382470592],[51.50452965115, -0.08431134759],[51.50477863482, -0.08468996061],[51.50513258061, -0.0854388262]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00139M",
+                        "name":"London Bridge Station",
+                        "uri":"/StopPoint/490G00139M",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"Southeastern",
+                     "directions":[
+                        "London Charing Cross Rail Station"
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"national-rail",
+                  "name":"national-rail",
+                  "type":"Mode"
+               },
+               "disruptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                     "category":"RealTime",
+                     "type":"stopInfo",
+                     "categoryDescription":"RealTime",
+                     "description":"SOUTHERN RAILWAY: There will be no Southern service on Tuesday 10, Wednesday 11 and Friday 13 January, and you should not attempt to travel. Thameslink services will operate as normal with a reduced Gatwick Express service operating between Victoria and Gatwick Airport only from 0500 until 2200, every 30 minutes.",
+                     "additionalInfo":"<a href=\"http://www.southernrailway.com/your-journey/strike/aslef-strike/\">Find out more from the Southern website.</a>",
+                     "created":"2016-12-12T08:59:00",
+                     "lastUpdate":"2017-01-04T15:49:00"
+                  }
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":true,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":9,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Get off at London Bridge Borough High St",
+                  "detailed":"Get off at London Bridge Borough High St",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"ESCALATOR",
+                     "incline":"DOWN",
+                     "stopId":1000139,
+                     "position":"IDEST"
+                  },
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                     "type":"WALKWAY",
+                     "incline":"LEVEL",
+                     "stopId":1000139,
+                     "position":"IDEST"
+                  }
+               ],
+               "departureTime":"2017-01-11T14:23:00",
+               "arrivalTime":"2017-01-11T14:32:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00139M",
+                  "platformName":"",
+                  "icsCode":"1000139",
+                  "commonName":"London Bridge Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50513258061,
+                  "lon":-0.0854388262
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G000922",
+                  "platformName":"M",
+                  "stopLetter":"M",
+                  "icsCode":"1018542",
+                  "commonName":"London Bridge",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50655307826,
+                  "lon":-0.08817482554
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.50513258061, -0.0854388262],[51.50641969002, -0.08826686887],[51.50656253419, -0.08820324977],[51.50655307826, -0.08817482554]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G000922",
+                        "name":"London Bridge",
+                        "uri":"/StopPoint/490G000922",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":15,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"40 bus to Aldgate Station",
+                  "detailed":"40 bus towards Aldgate",
+                  "steps":[
+
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:32:00",
+               "arrivalTime":"2017-01-11T14:47:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G000922",
+                  "platformName":"M",
+                  "stopLetter":"M",
+                  "icsCode":"1018542",
+                  "commonName":"London Bridge",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.50655307826,
+                  "lon":-0.08817482554
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00003N",
+                  "platformName":"",
+                  "stopLetter":"D",
+                  "icsCode":"1000003",
+                  "commonName":"Aldgate Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.51429166568,
+                  "lon":-0.07473547029
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.50656253419, -0.08820324977],[51.50673210291, -0.08812410149],[51.50682149784, -0.08809153917],[51.50790392696, -0.08774360664],[51.5089144632, -0.08739866775],[51.50902159588, -0.08735094867],[51.50942363685, -0.08719000144],[51.50942363685, -0.08719000144],[51.50952201788, -0.08715705884],[51.50973651788, -0.08707601917],[51.50980793956, -0.08704420537],[51.51030883075, -0.08687911135],[51.51071040102, -0.08668935216],[51.51087121698, -0.08662496876],[51.51087691396, -0.08642297063],[51.51096066832, -0.08604476419],[51.51109881012, -0.0856930993],[51.51130338222, -0.08555481983],[51.51145427069, -0.08543320145],[51.51147506458, -0.08560526859],[51.51147506458, -0.08560526859],[51.51145427069, -0.08543320145],[51.51191662714, -0.08511117016],[51.51179985362, -0.08456842298],[51.51168072482, -0.08388166089],[51.51166985604, -0.0837668238],[51.51156798924, -0.08303610621],[51.5115814893, -0.08276171875],[51.5115814893, -0.08276171875],[51.5116070745, -0.08212653298],[51.51171400502, -0.08151675219],[51.51179962832, -0.08125374451],[51.51187626463, -0.0809911135],[51.51192735516, -0.08081602568],[51.51204585823, -0.08036428035],[51.51209718355, -0.08020359307],[51.5122090557, -0.07989624148],[51.51233772071, -0.07951612281],[51.51236397239, -0.07947178312],[51.51236397239, -0.07947178312],[51.51246874309, -0.07928002186],[51.5125200669, -0.0791193319],[51.51271069032, -0.07867895356],[51.51287600475, -0.0783405209],[51.51316358707, -0.07778075738],[51.51326125701, -0.07770458499],[51.5133125786, -0.07754389051],[51.51344218025, -0.07722136524],[51.51364201888, -0.076794994],[51.51372929477, -0.0760851149],[51.51378108665, -0.07595322173],[51.51382389201, -0.07582170696],[51.51390122485, -0.07560226264],[51.51405588926, -0.07516337178],[51.51417626146, -0.07482681102],[51.51423680182, -0.07468013374]]",
+                  "stopPoints":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G09267E",
+                        "name":"Monument Station",
+                        "uri":"/StopPoint/490G09267E",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00019176",
+                        "name":"Gracechurch Street / Monument Station",
+                        "uri":"/StopPoint/490G00019176",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00011049",
+                        "name":"Rood Lane",
+                        "uri":"/StopPoint/490G00011049",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G01108W",
+                        "name":"Fenchurch Street Station",
+                        "uri":"/StopPoint/490G01108W",
+                        "type":"StopPoint"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"490G00003N",
+                        "name":"Aldgate Station",
+                        "uri":"/StopPoint/490G00003N",
+                        "type":"StopPoint"
+                     }
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"40",
+                     "directions":[
+                        "Aldgate"
+                     ],
+                     "lineIdentifier":{
+                        "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id":"40",
+                        "name":"40",
+                        "uri":"/Line/40",
+                        "type":"Line"
+                     }
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"bus",
+                  "name":"bus",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "isDisrupted":false,
+               "hasFixedLocations":true
+            },
+            {
+               "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+               "duration":4,
+               "instruction":{
+                  "$type":"Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                  "summary":"Walk to EC3N 1DD",
+                  "detailed":"Walk to EC3N 1DD",
+                  "steps":[
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"Aldgate High Street for 101 metres",
+                        "turnDirection":"STRAIGHT",
+                        "streetName":"Aldgate High Street",
+                        "distance":101,
+                        "cumulativeDistance":101,
+                        "skyDirection":236,
+                        "skyDirectionDescription":"SouthWest",
+                        "cumulativeTravelTime":89,
+                        "latitude":51.514236801820005,
+                        "longitude":-0.07468013374,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Continue along ",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to Minories, continue for 136 metres",
+                        "turnDirection":"SLIGHT_LEFT",
+                        "streetName":"Minories",
+                        "distance":136,
+                        "cumulativeDistance":237,
+                        "skyDirection":535,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":210,
+                        "latitude":51.51378108665,
+                        "longitude":-0.07595322173,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Take a slight left",
+                        "trackType":"None"
+                     },
+                     {
+                        "$type":"Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                        "description":"on to St Clare Street, continue for 25 metres",
+                        "turnDirection":"LEFT",
+                        "streetName":"St Clare Street",
+                        "distance":25,
+                        "cumulativeDistance":262,
+                        "skyDirection":439,
+                        "skyDirectionDescription":"North",
+                        "cumulativeTravelTime":228,
+                        "latitude":51.51257881087,
+                        "longitude":-0.07557152271,
+                        "pathAttribute":{
+                           "$type":"Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                        },
+                        "descriptionHeading":"Turn left",
+                        "trackType":"None"
+                     }
+                  ]
+               },
+               "obstacles":[
+
+               ],
+               "departureTime":"2017-01-11T14:46:00",
+               "arrivalTime":"2017-01-11T14:50:00",
+               "departurePoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                  "naptanId":"490G00003N",
+                  "platformName":"",
+                  "stopLetter":"D",
+                  "icsCode":"1000003",
+                  "commonName":"Aldgate Station",
+                  "placeType":"StopPoint",
+                  "additionalProperties":[
+
+                  ],
+                  "lat":51.51429166568,
+                  "lon":-0.07473547029
+               },
+               "arrivalPoint":{
+                  "$type":"Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+                  "commonName":"EC3N 1DD",
+                  "placeType":"PostCode",
+                  "lat":51.512409966140005,
+                  "lon":-0.07514628169
+               },
+               "path":{
+                  "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                  "lineString":"[[51.51429166568, -0.07473547029],[51.51423680182, -0.07468013374],[51.51417626146, -0.07482681102],[51.51405588926, -0.07516337178],[51.51390122485, -0.07560226264],[51.51382389201, -0.07582170696],[51.51378108665, -0.07595322173],[51.51357392762, -0.07593312636],[51.51296711518, -0.07567045429],[51.5126963426, -0.07560980536],[51.51257881087, -0.07557152271],[51.51261783438, -0.07520957911],[51.51240996614, -0.07514628169]]",
+                  "stopPoints":[
+
+                  ],
+                  "elevation":[
+
+                  ]
+               },
+               "routeOptions":[
+                  {
+                     "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                     "name":"",
+                     "directions":[
+                        ""
+                     ]
+                  }
+               ],
+               "mode":{
+                  "$type":"Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                  "id":"walking",
+                  "name":"walking",
+                  "type":"Mode"
+               },
+               "disruptions":[
+
+               ],
+               "plannedWorks":[
+
+               ],
+               "distance":262,
+               "isDisrupted":false,
+               "hasFixedLocations":false
+            }
+         ]
+      }
+   ],
+   "lines":[
+      {
+         "$type":"Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+         "id":"126",
+         "name":"126",
+         "modeName":"bus",
+         "disruptions":[
+
+         ],
+         "created":"2016-12-28T10:14:18.92Z",
+         "modified":"2016-12-28T10:14:18.92Z",
+         "lineStatuses":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+               "id":0,
+               "statusSeverity":10,
+               "statusSeverityDescription":"Good Service",
+               "created":"0001-01-01T00:00:00",
+               "validityPeriods":[
+
+               ]
+            }
+         ],
+         "routeSections":[
+
+         ],
+         "serviceTypes":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+               "name":"Regular",
+               "uri":"/Line/Route?ids=126&serviceTypes=Regular"
+            }
+         ]
+      },
+      {
+         "$type":"Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+         "id":"273",
+         "name":"273",
+         "modeName":"bus",
+         "disruptions":[
+
+         ],
+         "created":"2016-12-28T10:14:18.843Z",
+         "modified":"2016-12-28T10:14:18.843Z",
+         "lineStatuses":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+               "id":0,
+               "statusSeverity":10,
+               "statusSeverityDescription":"Good Service",
+               "created":"0001-01-01T00:00:00",
+               "validityPeriods":[
+
+               ]
+            }
+         ],
+         "routeSections":[
+
+         ],
+         "serviceTypes":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+               "name":"Regular",
+               "uri":"/Line/Route?ids=273&serviceTypes=Regular"
+            }
+         ]
+      },
+      {
+         "$type":"Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+         "id":"40",
+         "name":"40",
+         "modeName":"bus",
+         "disruptions":[
+
+         ],
+         "created":"2016-12-28T10:14:18.81Z",
+         "modified":"2016-12-28T10:14:18.81Z",
+         "lineStatuses":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+               "id":0,
+               "statusSeverity":10,
+               "statusSeverityDescription":"Good Service",
+               "created":"0001-01-01T00:00:00",
+               "validityPeriods":[
+
+               ]
+            }
+         ],
+         "routeSections":[
+
+         ],
+         "serviceTypes":[
+            {
+               "$type":"Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+               "name":"Regular",
+               "uri":"/Line/Route?ids=40&serviceTypes=Regular"
+            }
+         ]
+      }
+   ],
+   "stopMessages":[
+
+   ],
+   "recommendedMaxAgeMinutes":5,
+   "searchCriteria":{
+      "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.SearchCriteria, Tfl.Api.Presentation.Entities",
+      "dateTime":"2017-01-11T13:30:00",
+      "dateTimeType":"Departing",
+      "timeAdjustments":{
+         "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustments, Tfl.Api.Presentation.Entities",
+         "earliest":{
+            "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+            "date":"20170111",
+            "time":"0300",
+            "timeIs":"departing",
+            "uri":"/journey/journeyresults/se94jf/to/ec3n1dd?time=0300&date=20170111&timeIs=departing"
+         },
+         "earlier":{
+            "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+            "date":"20170111",
+            "time":"1335",
+            "timeIs":"departing",
+            "uri":"/journey/journeyresults/se94jf/to/ec3n1dd?time=1335&date=20170111&timeIs=departing"
+         },
+         "later":{
+            "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+            "date":"20170111",
+            "time":"1339",
+            "timeIs":"departing",
+            "uri":"/journey/journeyresults/se94jf/to/ec3n1dd?time=1339&date=20170111&timeIs=departing"
+         },
+         "latest":{
+            "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+            "date":"20170112",
+            "time":"0300",
+            "timeIs":"departing",
+            "uri":"/journey/journeyresults/se94jf/to/ec3n1dd?time=0300&date=20170112&timeIs=departing"
+         }
+      }
+   },
+   "journeyVector":{
+      "$type":"Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyVector, Tfl.Api.Presentation.Entities",
+      "from":"SE94JF",
+      "to":"EC3N1DD",
+      "via":"",
+      "uri":"/journey/journeyresults/se94jf/to/ec3n1dd"
+   }
+}

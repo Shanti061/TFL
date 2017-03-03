@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JSON and AJAX Exercise</title>
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <!-- Font Awesome -->
+	    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+        <link href="myTFLJourneyCSS.css" type="text/css" rel="stylesheet" />
+        
+    </head>
+    <body class="mainPic mainCol">
+        <div class="container-flex">
+        <div class="jumbotron mainHeading">
+        <h1>TFL PUBLIC TRANSPORT JOURNEY PLANNER</h1>
+        </div>
+    
+        <div id="main-content">
+            <div class="jumbotron">
+        
+            <div class="row">    
+               
+             <div class="col-md-4 col-md-offset-1 leftC">
+                 
+            <h4>Enter Your Departure Postcode</h4>  
+                 
+            <input type="text" id="depPC" class="busNumber corners"/><br />
+                  
+            <div id="messageD" class="data"></div>
+                 
+                 
+                 <br>
+                 
+                 <h4>Enter Your Arrival Postcode</h4>
+                 
+                 <input type="text" id="arrPC" class="busNumber corners"/><br />
+                 
+                 <div id="messageA" class="data"></div>
+                 
+                 <br><br>
+                 
+                 
+                 
+                 <button id="mySubmit" type="button" class="submitQ corners">SUBMIT</button>
+                 <button id="mySwitch" type="button" class="submitQ corners">SWITCH</button>
+               
+                 <br><br><br><br>
+                 <hr>
+  
+                </div>
+                
+                <div class="col-md-4 col-md-offset-2 rightC">
+                    
+                    <div class="btn-group" role="group" aria-label="Route Options">
+                      <button id="option1" type="button" class="refreshW corners">Option 1</button>
+                      <button id="option2"type="button" class="refreshW corners">Option 2</button>
+                      <button id="option3" type="button" class="refreshW corners">Option 3</button>
+                    </div>
+                    
+                    <hr>
+  
+                    
+                    <h4>Journey Duration</h4>
+                 <div id="journeyD" class="durationMinutes">
+                </div>
+                    <br>
+                 <span><strong>DEPARTURE</strong><br>
+                     </span><span id="startDT" class="timeDate"></span><br>
+                    <br>
+                    <span><strong>ARRIVAL</strong><br>
+                        </span><span id="arrivalDT" class="timeDate"></span>
+                
+                    <br>
+                    <hr>
+                    
+                    <h4>Journey Summary</h4>
+                 <div class="listItems">
+                     <span id="stepsD"></span>
+                </div>
+                    
+                    <hr>
+                    
+              
+                </div>
+                
+                <div class="row">
+                
+                <div id="googleMap" class="col-md-10 col-md-offset-1 googleMapC">
+                    
+                    <h4>Alternative Route By Car</h4>
+                    <iframe id="myGoogleMap" class="mapFormat"></iframe></div>
+
+                </div>
+                
+           </div>  
+                
+                
+                
+            </div>
+        
+        </div>
+            
+            <!--Pop-up Modal code starts here-->
+            
+         <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<!--<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>-->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="row">
+                <div class="col-md-12 modalh3"><h3></h3>
+                <hr>    
+                </div>
+                </div>
+                <div class="row">
+                    
+                <h4>Description</h4>
+                <div id="fullD" class="col-md-12 modalh4">
+
+                    
+                    </div>
+
+                    
+                </div>
+                
+                
+                <div class="row">
+                    <h4>More Info</h4>
+                <div id="fullL" class="col-md-12 modalh4">
+                    
+                    </div>
+                    <br><br>
+                    <div><button class="btn btn-default btn-lg" type="button"  class="btn btn-default" data-dismiss="modal">Close</button></div>
+ 
+                    
+                </div>
+                
+                
+			</div>
+		</div>
+	</div>   
+            
+            
+            
+        
+
+        </div>
+        
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="myTFL.js"></script>
+        
+        
+    </body>
+
+
+</html>
